@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
 
 #define USE_ENCODE_FUNCTIONS
 #define USE_UINT16_FUNCTIONS
@@ -244,11 +243,7 @@ int main() {
     icer_output_data_buf_typedef output;
     icer_init_output_struct(&output, datastream, params.datastream_max_size*2, params.datastream_max_size);
 
-    begin = clock();
     icer_compress_image_yuv_uint16(compress0, compress1, compress2, out_w, out_h, params.stages, params.filter_type, params.segments, &output);
-    end = clock();
-
-    printf("compressed size %llu, time taken: %lf\n", output.size_used, (float)(end-begin)/CLOCKS_PER_SEC);
 
     FILE *ptr1;
 
