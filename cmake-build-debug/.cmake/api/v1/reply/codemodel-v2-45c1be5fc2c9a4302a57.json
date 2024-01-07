@@ -1,0 +1,129 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lib_icer",
+					"jsonFile" : "directory-lib_icer-Debug-51b9bd5f88434f78572d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib_icer",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "icer_compression",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "icer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "compress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compress-Debug-7a64e8dd68821139f24b.json",
+					"name" : "compress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "compress_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compress_color-Debug-14b6c62556e0c62046b8.json",
+					"name" : "compress_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompress-Debug-acdaf227551330569f05.json",
+					"name" : "decompress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decompress_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decompress_color-Debug-109df79d5071fdbdda59.json",
+					"name" : "decompress_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "icer::@3bacba6041f0103cf60a",
+					"jsonFile" : "target-icer-Debug-bda169a96f376c9f7507.json",
+					"name" : "icer",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug",
+		"source" : "/home/mateusz/CLionProjects/icer_compresja"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

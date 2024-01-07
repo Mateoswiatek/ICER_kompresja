@@ -1,0 +1,9 @@
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/compress.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/decompress.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/compress_color.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/decompress_color.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/lib_icer/CMakeFiles/icer.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/lib_icer/CMakeFiles/edit_cache.dir
+/home/mateusz/CLionProjects/icer_compresja/cmake-build-debug/lib_icer/CMakeFiles/rebuild_cache.dir
