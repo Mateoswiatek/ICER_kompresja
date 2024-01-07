@@ -56,13 +56,6 @@ build CMakeFiles/compress.dir/example/src/example_encode.c.o: C_COMPILER__compre
   OBJECT_DIR = CMakeFiles/compress.dir
   OBJECT_FILE_DIR = CMakeFiles/compress.dir/example/src
 
-build CMakeFiles/compress.dir/example/src/stb_lib.c.o: C_COMPILER__compress_unscanned_Debug /home/mateusz/CLionProjects/icer_compresja/example/src/stb_lib.c || cmake_object_order_depends_target_compress
-  DEP_FILE = CMakeFiles/compress.dir/example/src/stb_lib.c.o.d
-  FLAGS = -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/mateusz/CLionProjects/icer_compresja/example/inc -I/home/mateusz/CLionProjects/icer_compresja/lib_icer/inc
-  OBJECT_DIR = CMakeFiles/compress.dir
-  OBJECT_FILE_DIR = CMakeFiles/compress.dir/example/src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target compress
@@ -71,7 +64,7 @@ build CMakeFiles/compress.dir/example/src/stb_lib.c.o: C_COMPILER__compress_unsc
 #############################################
 # Link the executable compress
 
-build compress: C_EXECUTABLE_LINKER__compress_Debug CMakeFiles/compress.dir/example/src/example_encode.c.o CMakeFiles/compress.dir/example/src/stb_lib.c.o | lib_icer/libicer.a || lib_icer/libicer.a
+build compress: C_EXECUTABLE_LINKER__compress_Debug CMakeFiles/compress.dir/example/src/example_encode.c.o | lib_icer/libicer.a || lib_icer/libicer.a
   FLAGS = -Wall -Wextra -g
   LINK_LIBRARIES = -lm  lib_icer/libicer.a
   OBJECT_DIR = CMakeFiles/compress.dir
@@ -96,13 +89,6 @@ build CMakeFiles/decompress.dir/example/src/example_decode.c.o: C_COMPILER__deco
   OBJECT_DIR = CMakeFiles/decompress.dir
   OBJECT_FILE_DIR = CMakeFiles/decompress.dir/example/src
 
-build CMakeFiles/decompress.dir/example/src/stb_lib.c.o: C_COMPILER__decompress_unscanned_Debug /home/mateusz/CLionProjects/icer_compresja/example/src/stb_lib.c || cmake_object_order_depends_target_decompress
-  DEP_FILE = CMakeFiles/decompress.dir/example/src/stb_lib.c.o.d
-  FLAGS = -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/mateusz/CLionProjects/icer_compresja/example/inc -I/home/mateusz/CLionProjects/icer_compresja/lib_icer/inc
-  OBJECT_DIR = CMakeFiles/decompress.dir
-  OBJECT_FILE_DIR = CMakeFiles/decompress.dir/example/src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target decompress
@@ -111,7 +97,7 @@ build CMakeFiles/decompress.dir/example/src/stb_lib.c.o: C_COMPILER__decompress_
 #############################################
 # Link the executable decompress
 
-build decompress: C_EXECUTABLE_LINKER__decompress_Debug CMakeFiles/decompress.dir/example/src/example_decode.c.o CMakeFiles/decompress.dir/example/src/stb_lib.c.o | lib_icer/libicer.a || lib_icer/libicer.a
+build decompress: C_EXECUTABLE_LINKER__decompress_Debug CMakeFiles/decompress.dir/example/src/example_decode.c.o | lib_icer/libicer.a || lib_icer/libicer.a
   FLAGS = -Wall -Wextra -g
   LINK_LIBRARIES = -lm  lib_icer/libicer.a
   OBJECT_DIR = CMakeFiles/decompress.dir
@@ -136,13 +122,6 @@ build CMakeFiles/compress_color.dir/example/src/example_encode_color.c.o: C_COMP
   OBJECT_DIR = CMakeFiles/compress_color.dir
   OBJECT_FILE_DIR = CMakeFiles/compress_color.dir/example/src
 
-build CMakeFiles/compress_color.dir/example/src/stb_lib.c.o: C_COMPILER__compress_color_unscanned_Debug /home/mateusz/CLionProjects/icer_compresja/example/src/stb_lib.c || cmake_object_order_depends_target_compress_color
-  DEP_FILE = CMakeFiles/compress_color.dir/example/src/stb_lib.c.o.d
-  FLAGS = -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/mateusz/CLionProjects/icer_compresja/example/inc -I/home/mateusz/CLionProjects/icer_compresja/lib_icer/inc
-  OBJECT_DIR = CMakeFiles/compress_color.dir
-  OBJECT_FILE_DIR = CMakeFiles/compress_color.dir/example/src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target compress_color
@@ -151,7 +130,7 @@ build CMakeFiles/compress_color.dir/example/src/stb_lib.c.o: C_COMPILER__compres
 #############################################
 # Link the executable compress_color
 
-build compress_color: C_EXECUTABLE_LINKER__compress_color_Debug CMakeFiles/compress_color.dir/example/src/example_encode_color.c.o CMakeFiles/compress_color.dir/example/src/stb_lib.c.o | lib_icer/libicer.a || lib_icer/libicer.a
+build compress_color: C_EXECUTABLE_LINKER__compress_color_Debug CMakeFiles/compress_color.dir/example/src/example_encode_color.c.o | lib_icer/libicer.a || lib_icer/libicer.a
   FLAGS = -Wall -Wextra -g
   LINK_LIBRARIES = -lm  lib_icer/libicer.a
   OBJECT_DIR = CMakeFiles/compress_color.dir
@@ -176,13 +155,6 @@ build CMakeFiles/decompress_color.dir/example/src/example_decode_color.c.o: C_CO
   OBJECT_DIR = CMakeFiles/decompress_color.dir
   OBJECT_FILE_DIR = CMakeFiles/decompress_color.dir/example/src
 
-build CMakeFiles/decompress_color.dir/example/src/stb_lib.c.o: C_COMPILER__decompress_color_unscanned_Debug /home/mateusz/CLionProjects/icer_compresja/example/src/stb_lib.c || cmake_object_order_depends_target_decompress_color
-  DEP_FILE = CMakeFiles/decompress_color.dir/example/src/stb_lib.c.o.d
-  FLAGS = -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/mateusz/CLionProjects/icer_compresja/example/inc -I/home/mateusz/CLionProjects/icer_compresja/lib_icer/inc
-  OBJECT_DIR = CMakeFiles/decompress_color.dir
-  OBJECT_FILE_DIR = CMakeFiles/decompress_color.dir/example/src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target decompress_color
@@ -191,7 +163,7 @@ build CMakeFiles/decompress_color.dir/example/src/stb_lib.c.o: C_COMPILER__decom
 #############################################
 # Link the executable decompress_color
 
-build decompress_color: C_EXECUTABLE_LINKER__decompress_color_Debug CMakeFiles/decompress_color.dir/example/src/example_decode_color.c.o CMakeFiles/decompress_color.dir/example/src/stb_lib.c.o | lib_icer/libicer.a || lib_icer/libicer.a
+build decompress_color: C_EXECUTABLE_LINKER__decompress_color_Debug CMakeFiles/decompress_color.dir/example/src/example_decode_color.c.o | lib_icer/libicer.a || lib_icer/libicer.a
   FLAGS = -Wall -Wextra -g
   LINK_LIBRARIES = -lm  lib_icer/libicer.a
   OBJECT_DIR = CMakeFiles/decompress_color.dir

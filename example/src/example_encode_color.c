@@ -7,7 +7,6 @@
 #include "icer.h"
 #include "color_util.h"
 
-
 #include "parametry.h"
 
 const char compressed_filename[] = "../ring/Dark_1_e745/compress.bin"; // wynikowy w binarce
